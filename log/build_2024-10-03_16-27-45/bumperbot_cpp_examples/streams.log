@@ -1,0 +1,33 @@
+[0.007s] Invoking command in '/home/vpassamano-iit.local/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vpassamano-iit.local/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/vpassamano-iit.local/bumperbot_ws/install/bumperbot_cpp_examples
+[0.016s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.159s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.176s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.182s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.189s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.198s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.237s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.238s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.279s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.319s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.329s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.394s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.394s] -- Configured cppcheck include dirs: 
+[0.394s] -- Configured cppcheck exclude dirs and/or files: 
+[0.394s] -- Added test 'lint_cmake' to check CMake code style
+[0.395s] -- Added test 'uncrustify' to check C / C++ code style
+[0.395s] -- Configured uncrustify additional arguments: 
+[0.395s] -- Added test 'xmllint' to check XML markup files
+[0.396s] -- Configuring done (0.4s)
+[0.404s] -- Generating done (0.0s)
+[0.405s] -- Build files have been written to: /home/vpassamano-iit.local/bumperbot_ws/build/bumperbot_cpp_examples
+[0.410s] Invoked command in '/home/vpassamano-iit.local/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vpassamano-iit.local/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/vpassamano-iit.local/bumperbot_ws/install/bumperbot_cpp_examples
+[0.411s] Invoking command in '/home/vpassamano-iit.local/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vpassamano-iit.local/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[0.442s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[3.344s] [100%] [32m[1mLinking CXX executable simple_publisher[0m
+[3.438s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[3.438s] (.text+0x1b): undefined reference to `main'
+[3.447s] collect2: error: ld returned 1 exit status
+[3.449s] gmake[2]: *** [CMakeFiles/simple_publisher.dir/build.make:171: simple_publisher] Error 1
+[3.449s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_publisher.dir/all] Error 2
+[3.449s] gmake: *** [Makefile:146: all] Error 2
+[3.451s] Invoked command in '/home/vpassamano-iit.local/bumperbot_ws/build/bumperbot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vpassamano-iit.local/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16

@@ -1,0 +1,7 @@
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[31mCMake Error at CMakeLists.txt:11 (intall):
+  Unknown CMake command "intall".
+
+[0m
+-- Configuring incomplete, errors occurred!
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

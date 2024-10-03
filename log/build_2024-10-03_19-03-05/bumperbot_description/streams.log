@@ -1,0 +1,9 @@
+[0.008s] Invoking command in '/home/vpassamano-iit.local/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vpassamano-iit.local/bumperbot_ws/build/bumperbot_description -- -j16 -l16
+[0.024s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.179s] [31mCMake Error at CMakeLists.txt:11 (intall):
+[0.179s]   Unknown CMake command "intall".
+[0.179s] 
+[0.179s] [0m
+[0.179s] -- Configuring incomplete, errors occurred!
+[0.180s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.182s] Invoked command in '/home/vpassamano-iit.local/bumperbot_ws/build/bumperbot_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vpassamano-iit.local/bumperbot_ws/build/bumperbot_description -- -j16 -l16

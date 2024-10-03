@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.000156] (bumperbot_cpp_examples) JobQueued: {'identifier': 'bumperbot_cpp_examples', 'dependencies': OrderedDict()}
+[0.000337] (bumperbot_cpp_examples) JobStarted: {'identifier': 'bumperbot_cpp_examples'}
+[0.005614] (bumperbot_cpp_examples) JobProgress: {'identifier': 'bumperbot_cpp_examples', 'progress': 'cmake'}
+[0.005898] (bumperbot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '/home/vpassamano-iit.local/bumperbot_ws/src/bumperbot_cpp_examples', '-DCMAKE_INSTALL_PREFIX=/home/vpassamano-iit.local/bumperbot_ws/install/bumperbot_cpp_examples'], 'cwd': '/home/vpassamano-iit.local/bumperbot_ws/build/bumperbot_cpp_examples', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vpassamano', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vpassamano-iit.local', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3353', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/20439/bus,guid=a064ad1018eaf38305acf55966fe5af9', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vpassamano', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-20439.slice/user@20439.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vpassamano', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/iitavr002lw013u:@/tmp/.ICE-unix/3353,unix/iitavr002lw013u:/tmp/.ICE-unix/3353', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e8bd4a78_cfc9_45df_87eb_f75bc666c1f9', 'XDG_RUNTIME_DIR': '/run/user/20439', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/20439/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.460', 'SSH_AUTH_SOCK': '/run/user/20439/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_20439_HIaiNC', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/20439/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vpassamano-iit.local/bumperbot_ws/build/bumperbot_cpp_examples', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/20439/bus,guid=a064ad1018eaf38305acf55966fe5af9', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.044014] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.082046] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[0.092232] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099906] (-) TimerEvent: {}
+[0.150371] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.156700] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.156879] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.157177] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.163222] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.200019] (-) TimerEvent: {}
+[0.227707] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.235493] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.235730] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.236089] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.237666] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.300188] (-) TimerEvent: {}
+[0.329876] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.400259] (-) TimerEvent: {}
+[0.401933] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.424882] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.432729] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.441911] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.452382] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.498298] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.499804] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500332] (-) TimerEvent: {}
+[0.547240] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.560262] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.575181] (bumperbot_cpp_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600490] (-) TimerEvent: {}
+[0.621960] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.631606] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.678896] (bumperbot_cpp_examples) StderrLine: {'line': b"Error parsing '/home/vpassamano-iit.local/bumperbot_ws/src/bumperbot_cpp_examples/package.xml':\n"}
+[0.700621] (-) TimerEvent: {}
+[0.800816] (-) TimerEvent: {}
+[0.901037] (-) TimerEvent: {}
+[1.001275] (-) TimerEvent: {}
+[1.101467] (-) TimerEvent: {}
+[1.201741] (-) TimerEvent: {}
+[1.293120] (bumperbot_cpp_examples) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.293272] (bumperbot_cpp_examples) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[1.293333] (bumperbot_cpp_examples) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[1.293390] (bumperbot_cpp_examples) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.293446] (bumperbot_cpp_examples) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/minidom.py", line 2000, in parseString\n'}
+[1.293502] (bumperbot_cpp_examples) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[1.293557] (bumperbot_cpp_examples) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.293659] (bumperbot_cpp_examples) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString\n'}
+[1.293704] (bumperbot_cpp_examples) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[1.293749] (bumperbot_cpp_examples) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.293791] (bumperbot_cpp_examples) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString\n'}
+[1.293832] (bumperbot_cpp_examples) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[1.293872] (bumperbot_cpp_examples) StderrLine: {'line': b'xml.parsers.expat.ExpatError: mismatched tag: line 12, column 18\n'}
+[1.293913] (bumperbot_cpp_examples) StderrLine: {'line': b'\n'}
+[1.293955] (bumperbot_cpp_examples) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[1.293996] (bumperbot_cpp_examples) StderrLine: {'line': b'\n'}
+[1.294036] (bumperbot_cpp_examples) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.294077] (bumperbot_cpp_examples) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[1.294117] (bumperbot_cpp_examples) StderrLine: {'line': b'    main()\n'}
+[1.294157] (bumperbot_cpp_examples) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[1.294197] (bumperbot_cpp_examples) StderrLine: {'line': b'    raise e\n'}
+[1.294236] (bumperbot_cpp_examples) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[1.294277] (bumperbot_cpp_examples) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[1.294317] (bumperbot_cpp_examples) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.294357] (bumperbot_cpp_examples) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[1.294398] (bumperbot_cpp_examples) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[1.294440] (bumperbot_cpp_examples) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/vpassamano-iit.local/bumperbot_ws/src/bumperbot_cpp_examples/package.xml':\n"}
+[1.294487] (bumperbot_cpp_examples) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[1.294531] (bumperbot_cpp_examples) StderrLine: {'line': b'mismatched tag: line 12, column 18\n'}
+[1.301900] (-) TimerEvent: {}
+[1.315417] (bumperbot_cpp_examples) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[1.315555] (bumperbot_cpp_examples) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[1.315612] (bumperbot_cpp_examples) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[1.315686] (bumperbot_cpp_examples) StderrLine: {'line': b'  /home/vpassamano-iit.local/bumperbot_ws/src/bumperbot_cpp_examples/package.xml\n'}
+[1.315749] (bumperbot_cpp_examples) StderrLine: {'line': b'  /home/vpassamano-iit.local/bumperbot_ws/build/bumperbot_cpp_examples/ament_cmake_core/package.cmake)\n'}
+[1.315799] (bumperbot_cpp_examples) StderrLine: {'line': b'  returned error code 1\n'}
+[1.315852] (bumperbot_cpp_examples) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.315894] (bumperbot_cpp_examples) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[1.315940] (bumperbot_cpp_examples) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[1.315984] (bumperbot_cpp_examples) StderrLine: {'line': b'  CMakeLists.txt:24 (ament_lint_auto_find_test_dependencies)\n'}
+[1.316036] (bumperbot_cpp_examples) StderrLine: {'line': b'\n'}
+[1.316085] (bumperbot_cpp_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[1.316172] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.323001] (bumperbot_cpp_examples) CommandEnded: {'returncode': 1}
+[1.323267] (bumperbot_cpp_examples) JobEnded: {'identifier': 'bumperbot_cpp_examples', 'rc': 1}
+[1.333420] (-) EventReactorShutdown: {}
